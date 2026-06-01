@@ -57,3 +57,8 @@ vine
 wcwidth
 whitenoise
 gunicorn
+django-crispy-forms
+crispy-bootstrap5
+django-ckeditor
+django-js-asset
+requests
