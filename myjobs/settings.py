@@ -38,7 +38,11 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = env.bool("DEBUG", default=False)
 # DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["myjobs-fnts.onrender.com", ]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://myjobs-fnts.onrender.com",
+]
 
 
 # Application definition
