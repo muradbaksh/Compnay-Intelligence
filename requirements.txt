@@ -22,6 +22,7 @@ django-redis
 django-timezone-field
 djangorestframework
 djangorestframework_simplejwt
+dj-database-url
 drf-yasg
 Faker
 gunicorn
